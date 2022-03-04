@@ -1,0 +1,32 @@
+.info-container {
+  padding: 20px;
+  border-top: 1px solid #8730af;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &-icon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 48px;
+    background: linear-gradient(-45deg, #17353f, #8730af);
+    color: white;
+    margin: 20px;
+  }
+
+  h6 {
+    font-family: 'Roboto Mono', monospace;
+  }
+}

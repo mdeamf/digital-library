@@ -1,0 +1,22 @@
+.section-header {
+  h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+
+    .icon>svg {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  }
+
+  .underscore {
+    color: #0ea383;
+    font-weight: 300;
+
+    &.invert {
+      color: #8730af;
+    }
+  }
+}
