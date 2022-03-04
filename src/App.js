@@ -1,11 +1,9 @@
 import './App.scss';
 
-import Sections from './sections';
-
 function App() {
   return (
     <div>
-      <Sections />
+      <p>Teste</p>
     </div>
   );
 }
